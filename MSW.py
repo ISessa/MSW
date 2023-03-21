@@ -67,7 +67,7 @@ def main():
     text = r.text
 
     message_to_print,placeholder_flag = format_text_to_send(text)
-    max_placeholders = 144 #Max stars in 3 days is 144. If n of days change or n of stars change per day - make sure to chane format_text_to_send as well
+    max_placeholders = 144 #Max stars in 3 days is 144. If n of days change or n of stars change per day - make sure to change format_text_to_send as well
     if placeholder_flag != max_placeholders:
         send_to_telegram(message_to_print)
 
