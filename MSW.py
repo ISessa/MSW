@@ -1,3 +1,4 @@
+# not relevant anymore, new version out
 import requests
 import emoji
 
